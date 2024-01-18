@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.avtar{
+    display: inline-block;
+ 
+}
+#search{
+
+/* CSS */
+
+  background-color: #c2e4fb;
+  border-radius: 100px;
+  box-shadow: rgba(44, 127, 187, 0.2) 0 -25px 18px -14px inset,rgba(44, 120, 187, 0.15) 0 1px 2px,rgba(44, 101, 187, 0.15) 0 2px 4px,rgba(44, 120, 187, 0.15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 132, 187, 0.15) 0 16px 32px;
+  color: rgb(0, 51, 128);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#search:hover {
+  box-shadow: rgba(44, 144, 187, 0.35) 0 -25px 18px -14px inset,rgba(44, 134, 187, 0.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44, 113, 187, 0.25) 0 4px 8px,rgba(44, 111, 187, 0.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.avtar img{
+    max-width: 13rem;
+    border-radius: 50%;
+}
+#userInfo{
+    display: inline-block;
+    position: relative;
+    left : 20rem;
+}
+.card{
+    width: 21rem;
+}
+.loader {
+    display: none;
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 20px auto;
+    animation: spin 1s linear infinite;
+}
+
+.repositories {
+    margin-top: 20px;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+.next{
+    position: relative;
+    left: 80dvw;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
