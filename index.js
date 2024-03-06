@@ -55,7 +55,7 @@ async function fetchRepositories(username, page = 1, perPage = 10) {
   const apiUrl = `https://api.github.com/users/${username}/repos?page=${page}&per_page=${perPage}`;
   const userDetailsUrl = `https://api.github.com/users/${username}`;
 
-  const accessToken = "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";
+  const accessToken = "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";
 
   try {
     const response = await fetch(apiUrl, {
