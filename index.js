@@ -59,9 +59,9 @@ async function fetchRepositories(username, page = 1, perPage = 10) {
 
   try {
     const response = await fetch(apiUrl, {
-      headers: {
-        Authorization: `Bearer ${accessToken}`,
-      },
+      // headers: {
+      //   Authorization: `Bearer ${accessToken}`,
+      // },
     });
 
     if (!response.ok) {
